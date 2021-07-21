@@ -1,0 +1,60 @@
+.add input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.add span {
+    padding: 4px 10px;
+    background-color: rgb(7, 193, 250);
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list_box {
+    width: 300px;
+    margin: 15px auto;
+
+}
+
+.list {
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.list .text {
+    width: 250px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+
+.list .delText {
+    width: 250px;
+    height: 25px;
+    border: none;
+    outline: none;
+    text-decoration: line-through;
+}
+
+.list .text :checked {
+    border: none;
+}
+
+.list .checkBox {
+    width: 20px;
+    height: 20px;
+
+}
+
+.list span {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+    cursor: pointer;
+}
